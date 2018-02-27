@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> WEBBIE TITLE </title>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="whole-webpage">
+
+  <div class="container">
+      <h1> IN THE A.M </h1>
+
+    <a href="./gluten-free.html" class="gluten-button">
+      <img src="bread_no_text.jpeg" width="150" height="100"/>
+    </a>
+
+    <a href="./paleo.html" class="paleo-button">
+      <img src= "paleo_no_text.jpeg" width="150" height="75"/>
+    </a>
+
+    <a href="./vegan.html" class="vegan-button">
+      <img src= "carrot_no_text.jpeg" width ="150" height="200"/>
+    </a>
+
+    </div>
+
+  </div>
+
+</body>
+
+<!ok so all this code was supposed to be a carousel that I got off of bootstrap but I have no idea how to do it :)>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="Vegan_recipe.jpeg" width="500" height="500" alt="First slide">
+      <h5>RASPBERRY CHOC CHUNK COOKIES</h5>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="Paleo_recipe.jpeg" width="500" height="500" alt="Second slide">
+      <h5>BEETROOT FALAFELS</h5>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="gluten_free_recipe.jpeg" width="500" height="500" alt="Third slide">
+      <h5>PECAN & COCONUT CHIP PANCAKES</h5>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
